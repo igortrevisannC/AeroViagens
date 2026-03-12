@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
     margin: 0px;
     padding: 0px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
 
 /* minhas paletas de cores 
    #001449
@@ -13,33 +14,28 @@
    #17f9ff
 */
 
-body{
-    color:#001449 ;
-    color: #012677;
-}
-
-
 /* estilizaçao do header */
 header {
-    background-color: #00b4fc;
+    background-color: #f9e14b;
     display: flex;
-    padding: 20px;
+    padding: 20px 100px;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
 }
 
 h1 {
-    color: #001449; 
+    color: #001449;
     align-items: baseline;
     justify-content: end;
-    margin-left: 150px;
-    font-family: "Noto Sans Mono", monospace;
+    margin-left: 20px;
+    font-family: "Roboto", sans-serif;
     font-size: 40px;
     font-weight: 800;
 }
 
 header img {
-    width: 140px;
+    width: 160px;
     height: 140px;
 }
 
@@ -50,11 +46,12 @@ header img {
 }
 
 .header-list ul a {
-    color:#001449 ;
+    color: #001449;
     text-decoration: none;
     font-family: "Noto Sans Mono", monospace;
     font-size: 15px;
-    
+    font-weight: 1000;
+
 }
 
 /* fim da estilizacao do header */
@@ -63,44 +60,54 @@ header img {
 
 /* Começo da section-01 */
 .section01 {
-    background-color: #00b4fc;
-    padding: 20x;
+    background-color: #f9e14b;
+    padding: 250x;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     color: #17f9ff;
     font-size: 20px;
     text-align: center;
     gap: 30px;
 }
 
+.caixa-section01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+
 .paragrafo-01 {
-    color:#012677;
+    color: #012677;
     margin-bottom: 150px;
     font-weight: 500;
     font-family: "Noto Sans Mono", monospace;
     margin-right: 40px;
+    max-width: 400px;
+    margin-bottom: 1px;
 }
 
 .paragrafo-01 span {
     color: #001449;
     text-align: initial;
-    font-family: "Noto Sans Mono", monospace;
+    font-family: "Roboto", sans-serif;
     font-size: 30px;
-    font-weight: 600 ;
+    font-weight: 600;
 }
 
 .section01 img {
-    width: 400px;
+    width: 600px;
     height: 400px;
     border-radius: 20px;
-    margin-left: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+
 }
+
 /* Fim da section-01 */
 
 /* começo da section-02 */
-.section02{
+.section02 {
     display: flex;
     background-image: url(imagens/iamegenSection-02.jpg);
     padding: 300px;
@@ -111,12 +118,73 @@ header img {
     justify-content: center;
 }
 
-.section02 a{
-    background-color: #001449 ;
+.section02 a {
+    background-color: #001449;
     padding: 10px;
-    color:#17f9ff;
+    color: #17f9ff;
     border-radius: 10px;
     text-decoration: none;
     font-size: 20px;
     font-family: "Noto Sans Mono", monospace;
+}
+
+/* Fim da section-02 */
+
+/* começo da section-03 */
+.section03 {
+    background-color: #f9e14b;
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.destinos {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    gap: 30px;
+
+}
+
+.destino-img {
+    border-radius: 30px;
+    width: 500px;
+    height: 400px;
+}
+
+.h2-section-03 {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.estados {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.saida-dos-estados {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.valores {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.viagens-internacionas {
+    margin-top: 110px;
+    background-color: #012677;
+    color: #17f9ff;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
 }
