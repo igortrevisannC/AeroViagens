@@ -98,7 +98,7 @@ header img {
 
 .section01 img {
     width: 600px;
-    height: 400px;
+    height: 200px;
     border-radius: 20px;
     margin-bottom: 20px;
 
@@ -109,7 +109,7 @@ header img {
 /* começo da section-02 */
 .section02 {
     display: flex;
-    background-image: url(imagens/iamegenSection-02.jpg);
+    background-image: url(imagens-nacionais/iamegenSection-02.jpg);
     padding: 300px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,6 +128,30 @@ header img {
     font-family: "Noto Sans Mono", monospace;
 }
 
+.paragrafo-section-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.h2-section-02 {
+    color: #001449;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Noto Sans Mono", monospace;
+}
+
+.paragrafo-section-02 {
+    color: #001449;
+    align-items: center;
+    justify-content: center;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /* Fim da section-02 */
 
 /* começo da section-03 */
@@ -139,7 +163,6 @@ header img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .destinos {
@@ -156,7 +179,8 @@ header img {
     height: 400px;
 }
 
-.h2-section-03 {
+.h2-section-03-04 {
+    color: #001449;
     margin-bottom: 50px;
     font-size: 40px;
     font-weight: 800;
@@ -178,6 +202,8 @@ header img {
 }
 
 .viagens-internacionas {
+    display: flex;
+    align-items: center;
     margin-top: 110px;
     background-color: #012677;
     color: #17f9ff;
@@ -189,9 +215,10 @@ header img {
     border-radius: 20px;
 
 }
+
 /* Fim da section-03 */
 
-footer{
+footer {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -199,13 +226,76 @@ footer{
     justify-content: center;
 }
 
-.div-icon{
+.div-icon {
     color: #012677;
     font-size: 30px;
 }
 
-.direitos{
+.direitos {
     text-align: center;
     margin-bottom: 20px;
     margin-bottom: ;
+}
+
+/* Aqui a baixo ficara as Viagens-Internacionais */
+
+/* começo da section-04 */
+.section04 {
+    padding: 150px;
+    background-color: #f9e14b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Fim da section-04 */
+
+/* começo da section-05 */
+.section05 {
+    background-color: #012677;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.feed-back {
+    font-size: 30px;
+    font-weight: 400;
+    color: #f9e14b;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.feed-back-02 {
+    margin-top: 30px;
+    color: #f9e14b;
+    font-weight: 300;
+    font-family:"Roboto", sans-serif ;
+}
+
+.clientes {
+    display: flex;
+    gap: 30px;
+}
+
+.avaliacao {
+    width: 300px;
+    height: 300px;
+    background-color: #f9e14b;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #012677;
+    font-size: 24px;
+    border-radius: 30px;
+}
+
+.fa-star {
+    color: rgb(15, 13, 3);
+
 }
