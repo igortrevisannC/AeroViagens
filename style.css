@@ -41,7 +41,7 @@ header img {
 
 .header-list ul {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     list-style: none;
 }
 
@@ -49,8 +49,9 @@ header img {
     color: #001449;
     text-decoration: none;
     font-family: "Noto Sans Mono", monospace;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 1000;
+    gap: ;
 
 }
 
@@ -64,18 +65,11 @@ header img {
     padding: 250x;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     color: #17f9ff;
     font-size: 20px;
     text-align: center;
     gap: 30px;
-}
-
-.caixa-section01 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 250px;
 }
 
 .paragrafo-01 {
@@ -86,6 +80,7 @@ header img {
     margin-right: 40px;
     max-width: 400px;
     margin-bottom: 1px;
+    font-family: "Roboto", sans-serif;
 }
 
 .paragrafo-01 span {
@@ -98,7 +93,7 @@ header img {
 
 .section01 img {
     width: 600px;
-    height: 200px;
+    height: 180px;
     border-radius: 20px;
     margin-bottom: 20px;
 
@@ -109,7 +104,7 @@ header img {
 /* começo da section-02 */
 .section02 {
     display: flex;
-    background-image: url(imagens-nacionais/iamegenSection-02.jpg);
+    background-image: url(imagens-nacionais/BackGroun-section-02.jpg );
     padding: 300px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,19 +132,13 @@ header img {
 }
 
 .h2-section-02 {
-    color: #001449;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #001449;
+    color: #f9e14b;
     font-size: 35px;
     font-weight: 600;
     font-family: "Noto Sans Mono", monospace;
-}
-
-.paragrafo-section-02 {
-    color: #001449;
-    align-items: center;
-    justify-content: center;
-    font-family: "Noto Sans Mono", monospace;
-    font-size: 20px;
-    font-weight: 600;
 }
 
 /* Fim da section-02 */
@@ -173,6 +162,11 @@ header img {
 
 }
 
+.info-viagens{
+    font-family: "Noto Sans Mono", monospace;
+}
+
+
 .destino-img {
     border-radius: 30px;
     width: 500px;
@@ -184,24 +178,29 @@ header img {
     margin-bottom: 50px;
     font-size: 40px;
     font-weight: 800;
+    font-family: "Noto Sans Mono", monospace;
 }
 
 .estados {
     font-size: 25px;
     font-weight: 800;
+    font-family: "Noto Sans Mono", monospace;
 }
 
 .saida-dos-estados {
     font-size: 15px;
     font-weight: 500;
+    font-family:"Noto Sans Mono", monospace ;
+    font-weight: ;
 }
 
 .valores {
     font-size: 30px;
     font-weight: 600;
+    font-family: "Noto Sans Mono", monospace;
 }
 
-.viagens-internacionas {
+.viagens-internacionais {
     display: flex;
     align-items: center;
     margin-top: 110px;
@@ -275,7 +274,7 @@ footer {
     margin-top: 30px;
     color: #f9e14b;
     font-weight: 300;
-    font-family:"Roboto", sans-serif ;
+    font-family: "Roboto", sans-serif;
 }
 
 .clientes {
@@ -284,6 +283,7 @@ footer {
 }
 
 .avaliacao {
+    padding: 40px;
     width: 300px;
     height: 300px;
     background-color: #f9e14b;
@@ -298,4 +298,58 @@ footer {
 .fa-star {
     color: rgb(15, 13, 3);
 
+}
+
+/* Fim da section-05 */
+
+/* Fim da estilizacao das viagens Internacionais */
+
+.header-formulario {
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo-header {
+    width: 400px;
+    height: 150px;
+}
+
+/* começo da section-06 */
+
+.section06 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9e14b;
+    padding: 150px;
+
+}
+
+.div-formulario {
+    padding: 20px;
+    height: 200px;
+    background-color: #012677;
+    border-radius: 20px;
+    color: #f9e14b;
+    font-size: 15px;
+    font-weight: 600;
+    font-family:"Roboto", sans-serif ;
+
+}
+
+.finalizar-resetar{
+    display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+
+.botoes-inscricao{
+    padding: 2px;
+    background-color: #f9e14b;
+    color: #012677;
+    font-size: 15px;
+    font-weight: 500;
+    font-family:"Roboto", sans-serif ;
+    border-radius: 10px;
 }
