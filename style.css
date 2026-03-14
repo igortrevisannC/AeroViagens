@@ -95,7 +95,7 @@ header img {
 /* começo da section-02 */
 .section02 {
     display: flex;
-    background-image: url(imagens-nacionais/BackGroun-section-02.jpg );
+    background-image: url(imagens-nacionais/BackGround-section-02.jpg );
     padding: 300px;
     background-repeat: no-repeat;
     background-size: cover;
