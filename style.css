@@ -7,7 +7,7 @@
 
 /* estilizaçao do header */
 header {
-    background-color: #f9e14b;
+    background-color: #89CFF0;
     display: flex;
     padding: 20px 100px;
     align-items: center;
@@ -52,7 +52,7 @@ header img {
 
 /* Começo da section-01 */
 .section01 {
-    background-color: #f9e14b;
+    background-color: #89CFF0;
     padding: 250x;
     display: flex;
     align-items: center;
@@ -126,7 +126,7 @@ header img {
     padding: 10px;
     border-radius: 10px;
     background-color: #001449;
-    color: #f9e14b;
+    color: #89CFF0;
     font-size: 35px;
     font-weight: 600;
     font-family: "Noto Sans Mono", monospace;
@@ -136,7 +136,7 @@ header img {
 
 /* começo da section-03 */
 .section03 {
-    background-color: #f9e14b;
+    background-color: #89CFF0;
     display: flex;
     flex-direction: column;
     padding: 150px;
@@ -222,7 +222,7 @@ header img {
 /* começo da section-04 */
 .section04 {
     padding: 150px;
-    background-color: #f9e14b;
+    background-color: #89CFF0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -246,14 +246,14 @@ header img {
 .feed-back {
     font-size: 30px;
     font-weight: 400;
-    color: #f9e14b;
+    color: #89CFF0;
     margin-bottom: 20px;
     font-family: "Roboto", sans-serif;
 }
 
 .feed-back-02 {
     margin-top: 30px;
-    color: #f9e14b;
+    color: #89CFF0;
     font-weight: 300;
     font-family: "Roboto", sans-serif;
 }
@@ -267,7 +267,7 @@ header img {
     padding: 40px;
     width: 300px;
     height: 300px;
-    background-color: #f9e14b;
+    background-color: #89CFF0;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -302,7 +302,7 @@ header img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f9e14b;
+    background-color: #89CFF0;
     padding: 150px;
 
 }
@@ -312,7 +312,7 @@ header img {
     height: 200px;
     background-color: #012677;
     border-radius: 20px;
-    color: #f9e14b;
+    color: #89CFF0;
     font-size: 15px;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
@@ -327,7 +327,7 @@ header img {
 
 .botoes-inscricao {
     padding: 2px;
-    background-color: #f9e14b;
+    background-color: #89CFF0;
     color: #012677;
     font-size: 15px;
     font-weight: 500;
