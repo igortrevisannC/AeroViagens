@@ -13,6 +13,13 @@ header {
     align-items: center;
     justify-content: space-between;
     position: sticky;
+    /* Faz com que o elemento fique "grudado" na tela quando o usuario rolar a pagina */
+    top: 0;
+    /* Define que o elemento ficara preso ao topo da tela (0px de distancia do topo) */
+    left: 0;
+    /* Define o alinhamento a esquerda da pagina, mantendo o 0px de distancia */
+    z-index: 1;
+    /* controla a sobreposicao do elemento sobre outros elementos da pagina  */
 }
 
 h1 {
