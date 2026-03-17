@@ -3,13 +3,14 @@
 * {
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 /* estilizaçao do header */
 header {
     background-color: #89CFF0;
     display: flex;
-    padding: 20px 100px;
+    padding: 15px 50px;
     align-items: center;
     justify-content: space-between;
     position: sticky;
@@ -20,6 +21,10 @@ header {
     /* Define o alinhamento a esquerda da pagina, mantendo o 0px de distancia */
     z-index: 1;
     /* controla a sobreposicao do elemento sobre outros elementos da pagina  */
+}
+
+.#viagens-nacionais {
+    scroll-margin-top: 150px;
 }
 
 h1 {
@@ -49,9 +54,14 @@ header img {
     font-family: "Noto Sans Mono", monospace;
     font-size: 18px;
     font-weight: 1000;
-    gap: ;
+
 
 }
+
+.header-list ul a:hover {
+    color: #eff1f3;
+}
+
 
 /* fim da estilizacao do header */
 
@@ -157,12 +167,17 @@ header img {
     flex-wrap: wrap;
     border-radius: 10px;
     gap: 30px;
-
+    
 }
 
 .fundo-destinos {
     background-color: white;
     border-radius: 30px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.fundo-destinos:hover{
+    box-shadow: 15px 15px 25px black;
 }
 
 .div-paragrafos-destinos {
@@ -281,6 +296,12 @@ header img {
     color: #012677;
     font-size: 24px;
     border-radius: 30px;
+    box-shadow: 10px 10px 15px black;
+}
+
+.avaliacao:hover{
+     box-shadow: 15px 15px 25px black;
+ 
 }
 
 .fa-star {
