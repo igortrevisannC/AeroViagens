@@ -23,7 +23,7 @@ header {
     /* controla a sobreposicao do elemento sobre outros elementos da pagina  */
 }
 
-.#viagens-nacionais {
+#viagens-nacionais {
     scroll-margin-top: 150px;
 }
 
@@ -64,6 +64,22 @@ header img {
 
 
 /* fim da estilizacao do header */
+
+.whatsapp img {
+    width: 45px;
+}
+
+.whatsapp img:hover {
+    width: 60px;
+    transition: 0.8s;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 10px;
+    bottom: 220px;
+}
+
 
 /* comeco das estilizacoes das sections */
 
@@ -167,7 +183,7 @@ header img {
     flex-wrap: wrap;
     border-radius: 10px;
     gap: 30px;
-    
+
 }
 
 .fundo-destinos {
@@ -176,8 +192,9 @@ header img {
     box-shadow: 10px 10px 20px black;
 }
 
-.fundo-destinos:hover{
+.fundo-destinos:hover {
     box-shadow: 15px 15px 25px black;
+    transition: 0.8s;
 }
 
 .div-paragrafos-destinos {
@@ -213,7 +230,7 @@ header img {
     font-size: 15px;
     font-weight: 500;
     font-family: "Noto Sans Mono", monospace;
-    font-weight: ;
+
 }
 
 .valores {
@@ -234,6 +251,12 @@ header img {
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     border-radius: 20px;
+
+}
+
+.viagens-internacionais:hover {
+    color: #001449;
+    background-color: #89CFF0;
 
 }
 
@@ -299,9 +322,9 @@ header img {
     box-shadow: 10px 10px 15px black;
 }
 
-.avaliacao:hover{
-     box-shadow: 15px 15px 25px black;
- 
+.avaliacao:hover {
+    box-shadow: 15px 15px 25px black;
+
 }
 
 .fa-star {
@@ -385,7 +408,6 @@ footer {
 .direitos {
     text-align: center;
     margin-bottom: 20px;
-    margin-bottom: ;
 }
 
 /* Fim da estilizacao do footer */
