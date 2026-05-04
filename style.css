@@ -171,7 +171,6 @@ header img {
 .section03 {
     background-color: #89CFF0;
     display: flex;
-    flex-direction: column;
     padding: 150px;
     align-items: center;
     justify-content: center;
